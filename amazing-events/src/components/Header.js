@@ -1,13 +1,10 @@
 function Header (){
     return(
         <div>
-        <nav>
-    <a>Home</a>
-    <a>Contact</a>
-    <a>About</a>
-
-    </nav>
-    
+   <nav><a>Home    </a>
+   <a>About    </a>
+   <a>Contact    </a>
+   </nav>
         </div>
     )
 }
