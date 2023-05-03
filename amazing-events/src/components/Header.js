@@ -1,9 +1,9 @@
 function Header (){
     return(
         <div>
-   <nav><a>Home    </a>
-   <a>About    </a>
-   <a>Contact    </a>
+   <nav><a href="">Home    </a>
+   <a href="">About    </a>
+   <a href="">Contact    </a>
    </nav>
         </div>
     )
