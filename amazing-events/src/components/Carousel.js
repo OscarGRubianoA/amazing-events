@@ -1,34 +1,27 @@
-function Carousel() {
-    const items = [{
-        url: "",
-        title: "ferias"
-    }, {
-        url: "",
-        title: "Museos"
-    }, {
-        url: "",
-        title: "Disfraces"
-    }, {
-        url: "",
-        title: "Cines"
-    }]
-    const itemView = (item) => {
+function Carousel(props) {
+    
+    const itemView = (item) => (
     <div className="item">
-        <img src="..." />
+        <img src={item.url} alt="" />
         <p>{item.title}</p>
     </div>
-    }
+    )
+    const range = props.range
+    const start = 0
+    const end = start + props.range
+    const items = props.data
     return (
-        <div >
+        <div>
             <div className="slide">
 
                 {
-                items.map(item => itemView(item))
+                items.slice(start,end).map(itemView)
                 }
             </div>
             
 
         </div>
     )
+   
 }
 export default Carousel
