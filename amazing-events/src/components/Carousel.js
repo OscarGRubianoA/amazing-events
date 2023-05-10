@@ -13,7 +13,7 @@ function Carousel(props) {
     return (
         <div>
             <div className="slide">
-
+            
                 {
                 items.slice(start,end).map(itemView)
                 }
