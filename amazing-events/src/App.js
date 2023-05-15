@@ -11,7 +11,7 @@ function App() {
     <div>
       {/* <Header/> */}
       {/* <WelcomePage/> */}
-      <EventsCarousel/>
+      <EventsCarousel />
       
       {/* <EventsPage/> */}
       {/* <HomePage/> */}
