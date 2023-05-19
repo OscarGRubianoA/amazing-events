@@ -13,7 +13,7 @@ function WelcomePage(){
               target="_blank"
               rel="noopener noreferrer"
             >
-              ¡¡¡Aprende React.js Facilmente Ahora!!!
+              ¡¡¡Aprende React.js facilmente ahora!!!
             </a>
           </header>
         </div>
