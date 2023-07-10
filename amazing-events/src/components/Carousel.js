@@ -2,7 +2,7 @@ function Carousel(props) {
     
    
     const range = props.range
-    const start =0
+    const start =5
     const end = start + props.range
     const items = props.data
 
